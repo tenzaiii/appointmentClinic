@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+       <!-- CDNs -->
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- UIkit -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/css/uikit.min.css" />
+    <!-- local css -->
+    <link rel="stylesheet" href="styles.css" link="styles">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="uk-navbar-container">
+    <div class="uk-container">
+        <div uk-navbar>
+
+            <div class="uk-navbar-left">
+
+                <ul class="uk-navbar-nav">
+                     <a class="uk-navbar-item uk-logo" href="#" aria-label="Back to Home">EasyClinic</a>
+
+                    <li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">SERVICES</a></li>
+                        <li><a href="appointment.html">APPOINTMENT</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                </ul>
+            </div>
+            <div class="uk-navbar-right">
+
+                <ul class="uk-navbar-nav">
+                <li><a href="#">LOG IN</a></li>
+
+                </ul>
+                
+            </div>
+
+        </div>
+        
+    </div>
+    
+
+</nav>
+
+<!-- SLIDER -->
+<div class="uk-position-relative uk-visible-toggle" tabindex="-1" uk-slideshow="autoplay: true autoplay-interval: 3000">
+
+    <div class="uk-slideshow-items" >
+        <div>
+            <div class="uk-inline">
+                <img src="IMG/banner_2.png" alt="">
+            <div class="uk-overlay uk-position-center-left ">
+                <h1 class="uk-heading-small  uk-text-primary uk-text-bold">Your Health, Our Priority 
+                    <br>Book Your Appointment Online!</h1>
+                <p class="uk-text-default uk-text-primary uk-text-meta">Fast, easy, and hassle-free scheduling for all your medical needs.</p>
+        </div>
+        
+    </div>
+        </div>
+        <div>
+            <div class="uk-inline">
+                <img src="IMG/banner_1.png"alt="">
+            <div class="uk-overlay uk-normal  uk-position-center-right">
+                <h1 class="uk-heading-small uk-text-primary uk-text-bold">Healthy Today, 
+                    <br>Happier Tomorrow 
+                    <br>Schedule Your Visit Now! </h1>
+                <p class="uk-text-default uk-text-primary uk-text-meta">A healthier future starts with one simple step — booking your appointment.</p>
+        </div>
+    </div>
+        </div>
+         <div>
+            <div class="uk-inline">
+                <img src="IMG/banner_3.png" alt="">
+            <div class="uk-overlay uk-normal uk-position-center-left">
+                <h1 class="uk-heading-small uk-text-primary uk-text-bold">Expert Doctors.<br> Reliable Service.<br> Easy Booking.</h1>
+                <p class="uk-text-default uk-text-primary uk-text-meta">Fast, easy, and hassle-free scheduling for all your medical needs.</p>
+        </div>
+    </div>
+        </div>
+        <div>
+            <div class="uk-inline">
+                <img src="IMG/banner_5.png"  alt="">
+           <div class="uk-overlay uk-normal  uk-position-center-right">
+                <h1 class="uk-heading-small uk-text-primary uk-text-bold">Your Health<br> 
+                    Journey Starts Here</h1>
+                <p class="uk-text-default uk-text-primary uk-text-meta">From scheduling to consultation — we’re with you every step of the way.</p>
+        </div>
+        
+    </div>
+        </div>     
+        </div>
+        
+      
+    </div>   
+
+</div>
+
+<!-- SHOWCASE -->
+<div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+    <div class="uk-card-media-left uk-cover-container">
+        <img src="IMG/banner_4.png" alt="" uk-cover>
+        <canvas width="600" height="400"></canvas>
+    </div>
+    <div>
+        <div class="uk-card-body">
+            <h3 class="uk-card-title uk-text-center" >Caring for You, One Appointment at a Time</h3>
+            <p class="uk-text-center">Our clinic is dedicated to giving you the attention and care you deserve, whenever you need it.</p>
+        </div>
+    </div>
+</div>
+<div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+    <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+        <img src="IMG/banner_4.png" alt="" uk-cover>
+        <canvas width="600" height="400"></canvas>
+    </div>
+    <div>
+        <div class="uk-card-body">
+            <h3 class="uk-card-title uk-text-center" >Quality Care Made Easy 
+                <br> Book Anytime, Anywhere</h3>
+            <p class="uk-text-center" >Convenient online scheduling for fast, reliable, and comfortable clinic visits.</p>
+        </div>
+    </div>
+</div>
+
+<!-- clinic -->
+<div class="uk-card uk-card-default uk-card-body">
+    <h3 class="uk-card-title uk-text-center">Our Clinic Services</h3>
+    <div class="uk-text-center">Friendly doctors, professional service, and an easy booking experience all in one place.</p>
+
+<div class="uk-grid-column-small uk-grid-row-large uk-child-width-1-3@s uk-text-center" uk-grid>
+    <div>
+        <div class="uk-card uk-card-default uk-card-hover uk-card-body">General Practitioner</div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-default uk-card-hover uk-card-body">Dentist</div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-default uk-card-hover uk-card-body">Pediatrician</div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-default uk-card-hover uk-card-body">Obstetrician-Gynecologist</div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-default uk-card-hover uk-card-body">Dermatologist</div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-default uk-card-hover uk-card-body">Ophthalmologist</div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-default uk-card-hover uk-card-body">Neurologist</div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-default uk-card-hover uk-card-body">Orthopedic Specialist</div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-default uk-card-hover uk-card-body">Cardiologist</div>
+    </div>
+</div>
+    </div>
+</div>
+
+<!-- services -->
+<div class="uk-card uk-card-default uk-card-body ">
+    <h3 class="uk-card-title uk-text-center">What We Offer</h3>
+    <div class="uk-text-center">Experience world-class healthcare made simple and accessible for everyone.</p>
+
+<div class="uk-position-relative uk-visible-toggle" tabindex="-1" uk-slideshow="animation: push">
+
+    <div class="uk-slideshow-items">
+        
+         <div>
+            <img src="IMG/clinic1.png" alt="" uk-cover>
+            <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center">
+                <h3 class="uk-margin-remove">Overlay Bottom</h3>
+                <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+         <div>
+            <img src="IMG/clinic2.png" alt="" uk-cover>
+            <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center">
+                <h3 class="uk-margin-remove">Overlay Bottom</h3>
+                <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+         <div>
+            <img src="IMG/clinic3.png" alt="" uk-cover>
+            <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center">
+                <h3 class="uk-margin-remove">Overlay Bottom</h3>
+                <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+         <div>
+            <img src="IMG/clinic4.png" alt="" uk-cover>
+            <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center">
+                <h3 class="uk-margin-remove">Overlay Bottom</h3>
+                <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+    </div>
+    <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
+    <div class="uk-light">
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous uk-slideshow-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href uk-slidenav-next uk-slideshow-item="next"></a>
+    </div>
+
+</div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+<!-- footer -->
+<div class="uk-card-footer uk-card-secondary">
+<div class="uk-card">
+    <div class="uk-column-1-2 uk-text-center ">
+<p>Copyright @2025 EasyClinic. All Rights Reserved.</p>
+<ul class="uk-iconnav">
+    <li><a href="#" uk-icon="icon: facebook"></a></li>
+    <li><a href="#" uk-icon="icon: instagram"></a></li>
+    <li><a href="#" uk-icon="icon: telegram"></a></li>
+    <li><a href="#" uk-icon="icon: tiktok"></a></li>
+    <li><a href="#" uk-icon="icon: x"></a></li>
+</ul>    
+</div>
+
+</div>
+
+
+<!-- SCRIPTS -->
+   <!-- swiper -->
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <!-- bootstrap -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+   <!-- UIkit -->
+   <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/js/uikit.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/js/uikit-icons.min.js"></script>
+   <!-- local js -->
+   <script src="script.js"></script>
+</body>
+</html>
